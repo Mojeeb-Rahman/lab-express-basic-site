@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  color: #fff;
+  background-color: black;
+}
+
+nav a {
+  color: #fff;
+}
+nav a:hover {
+  font-weight: bolder;
+}
+
+nav ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header ul {
+  display: flex;
+  gap: 16px;
+}
+
+.header-content {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("background.jpg");
+  color: #fff;
+}
